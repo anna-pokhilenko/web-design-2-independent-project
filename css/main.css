@@ -38,6 +38,10 @@ nav {
   color: #f46b0c;
 }
 
+.intro {
+  margin-top: 8.5em;
+}
+
 p {
   font-size: 26.88px;
   font-weight: 700;
@@ -47,4 +51,27 @@ p {
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+.list-of-works a {
+  font-weight: 300;
+  font-size: 62.46px;
+}
+
+.list-of-works li {
+  margin-top: 8.5em;
+  margin-left: 12em;
+}
+
+ul {
+  list-style: none;
+}
+
+.small-caps {
+  margin-left: 20px;
+  font-size: 18.22px;
+}
+
+.contact {
+
 }
