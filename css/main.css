@@ -73,5 +73,25 @@ ul {
 }
 
 .contact {
+  grid-column: 2;
+  grid-row: 2;
+}
 
+.text {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.contactme {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 960px;
+  left: 1740px;
+  transform: rotate(11deg);
+  font-size: 26.88px;
+  font-weight: 700;
 }
