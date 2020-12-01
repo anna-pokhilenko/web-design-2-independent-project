@@ -137,10 +137,10 @@ main {
   grid-template-areas:
     "empty welcome welcome"
     "my-works my-works my-works"
-    "contact contact contact";
 }
 
 .intro {
+  font-weight: 700;
   grid-area: welcome;
 }
 
@@ -154,10 +154,6 @@ p {
 
 .list-of-works {
   grid-area: my-works;
-}
-
-.contact {
-    grid-area: contact;
 }
 
 li a {
@@ -177,8 +173,33 @@ ul {
   padding: 0;
 }
 
-.small-caps {
-  text-align: right;
-  font-size: 12.15px;
-  padding-left: 3em;
+.small-caps1 {
+  padding-left: 4em;
+  position:relative;
+  top: 10px;
+}
+
+.small-caps2 {
+  padding-left: 8.6em;
+  position:relative;
+  top: 10px;
+}
+
+.small-caps3 {
+  padding-left: 11em;
+  position:relative;
+  top: 10px;
+}
+
+footer {
+  display: grid;
+  grid-template-areas:
+    "nothing1 nothing1 nothing1"
+    "nothing nothing contact";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px;
+}
+
+.contact {
+    grid-area: contact;
 }
