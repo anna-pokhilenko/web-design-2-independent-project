@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="489" height="110.25" viewBox="0 0 489 110.25">
+  <defs>
+    <filter id="Ellipse_2" x="0" y="30.25" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-247 -334.75)">
+    <g transform="matrix(1, 0, 0, 1, 247, 334.75)" filter="url(#Ellipse_2)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="31" cy="31" r="31" transform="translate(4 34.25)" fill="#f46b0c"/>
+    </g>
+    <text id="Paper_Bag" data-name="Paper Bag" transform="translate(278 392.75)" font-size="62.46" font-family="Span-Light, Span" font-weight="300"><tspan x="0" y="0">Paper Bag</tspan></text>
+    <text id="ANNUAL_REPORT" data-name="ANNUAL REPORT" transform="translate(579 395)" font-size="18.22" font-family="Span-Bold, Span" font-weight="700"><tspan x="0" y="0">ANNUAL REPORT</tspan></text>
+  </g>
+</svg>
