@@ -127,6 +127,11 @@ nav {
     "logo none navigation";
 }
 
+.dots-nav {
+  grid-area: navigation;
+  margin-top: 4em;
+}
+
 .logo-small {
   grid-area: logo;
   margin: 35px 0 0 5px;
@@ -194,12 +199,83 @@ ul {
 footer {
   display: grid;
   grid-template-areas:
-    "nothing1 nothing1 nothing1"
-    "nothing nothing contact";
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: 50px;
+    "nothing1 nothing1"
+    "nothing contact"
+    "nothing3 nothing3"
+    "nothing2 right";
+  grid-gap: 30px;
 }
 
 .contact {
-    grid-area: contact;
+  grid-area: contact;
+  position:relative;
+  left: 30px;
+  align-items: center;
+}
+
+aside {
+  grid-area: right;
+  position:relative;
+  left: -10px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  main {
+    display: grid;
+    grid-template-areas:
+      "empty empty welcome welcome"
+      "empty2 my-works my-works my-works"
+  }
+
+  li {
+    text-align: left;
+  }
+
+  footer {
+    display: grid;
+    grid-template-areas:
+      "nothing1 nothing1 nothing1"
+      "nothing nothing contact"
+      "nothing3 nothing3 nothing3"
+      "nothing2 right nothing4";
+    grid-gap: 30px;
+  }
+
+  aside {
+  grid-area: right;
+  position: relative;
+  left: 90px;
+  }
+
+  p {
+    margin: 4em 0;
+    position: relative;
+    left: 6em;
+  }
+
+  .dots-nav {
+    display: none;
+  }
+
+  .hide {
+    display: contents;
+  }
+
+  nav {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    list-style: none;
+  }
+
+  nav li a{
+    font-weight: 700;
+    font-size: 17.93px;
+  }
+
+  nav li {
+    margin: 4.5em 3em;
+  }
+
 }
