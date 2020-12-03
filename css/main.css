@@ -121,7 +121,6 @@ ul {
 
 } */
 
-
 .hide {
   display: none;
 }
@@ -320,19 +319,6 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
-  p {
-    margin: 6em 0;
-    font-size: 23.61px;
-  }
-
-  nav li a {
-    font-size: 26.88px;
-  }
-
-  main li a {
-    font-size: 62.46px;
-  }
-
   main li:last-child {
     margin-bottom: 0;
   }
@@ -352,6 +338,27 @@ aside {
 
   aside {
     text-align: center;
+  }
+
+  .s-screens {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  p {
+    margin: 6em 0;
+    font-size: 23.61px;
+  }
+
+  nav li a {
+    font-size: 26.88px;
+  }
+
+  main li a {
+    font-size: 62.46px;
   }
 
 }
