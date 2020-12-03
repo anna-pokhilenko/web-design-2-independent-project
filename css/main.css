@@ -133,6 +133,10 @@ nav {
     "logo none navigation";
 }
 
+nav li a {
+  color: #000;
+}
+
 .dots-nav {
   grid-area: navigation;
   margin-top: 4em;
@@ -167,7 +171,7 @@ p {
   grid-area: my-works;
 }
 
-li a {
+main li a {
   text-decoration: none;
   color: #000;
   font-weight: 300;
@@ -221,8 +225,7 @@ footer {
 
 aside {
   grid-area: right;
-  position:relative;
-  left: -10px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 26em) {
@@ -250,8 +253,7 @@ aside {
 
   aside {
   grid-area: right;
-  position: relative;
-  left: 90px;
+  text-align: center;
   }
 
   p {
@@ -309,4 +311,47 @@ aside {
       "nothing2 right nothing4";
     grid-gap: 20px;
   }
+
+  aside {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  p {
+    margin: 6em 0;
+    font-size: 23.61px;
+  }
+
+  nav li a {
+    font-size: 26.88px;
+  }
+
+  main li a {
+    font-size: 62.46px;
+  }
+
+  main li:last-child {
+    margin-bottom: 0;
+  }
+
+  main {
+    display: grid;
+    grid-template-areas:
+      "empty0 empty0 empty0 empty0 empty0 empty0 empty0"
+      "empty empty my-works my-works empty2 welcome welcome";
+    grid-gap: 30px;
+  }
+
+  .contact {
+    position:relative;
+    bottom: 60px;
+  }
+
+  aside {
+    text-align: center;
+  }
+
 }
