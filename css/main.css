@@ -225,7 +225,7 @@ aside {
   left: -10px;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 37em) {
 
   main {
     display: grid;
