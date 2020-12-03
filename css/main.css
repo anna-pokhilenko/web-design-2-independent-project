@@ -224,8 +224,8 @@ aside {
   position:relative;
   left: -10px;
 }
-/*
-@media only screen and (min-width: 25em) {
+
+@media only screen and (min-width: 30em) {
 
   main {
     display: grid;
@@ -284,7 +284,7 @@ aside {
     margin: 4.5em 3em;
   }
 
-} */
+}
 
 @media only screen and (min-width: 38em) {
 
