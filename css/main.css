@@ -121,6 +121,11 @@ ul {
 
 } */
 
+.aside-size {
+  font-size: 14.05px;
+  text-align: left;
+}
+
 .hide {
   display: none;
 }
@@ -218,13 +223,11 @@ footer {
 .contact {
   grid-area: contact;
   position:relative;
-  left: 30px;
   align-items: center;
 }
 
 aside {
   grid-area: right;
-  text-align: center;
 }
 
 @media only screen and (min-width: 26em) {
@@ -248,11 +251,6 @@ aside {
       "nothing3 nothing3 nothing3"
       "nothing2 right nothing4";
     grid-gap: 20px;
-  }
-
-  aside {
-  grid-area: right;
-  text-align: center;
   }
 
   p {
@@ -285,6 +283,9 @@ aside {
     margin: 4.5em 3em;
   }
 
+  aside {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -311,10 +312,6 @@ aside {
     grid-gap: 20px;
   }
 
-  aside {
-    text-align: center;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -334,10 +331,6 @@ aside {
   .contact {
     position:relative;
     bottom: 60px;
-  }
-
-  aside {
-    text-align: center;
   }
 
   .s-screens {
