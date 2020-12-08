@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
-  <defs>
-    <filter id="Ellipse_1" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
-      <feOffset dx="5" dy="5" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
-    <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="61" cy="61" r="61" transform="translate(4 4)" fill="#f46b0c"/>
-  </g>
-</svg>
+<svg height="140" viewBox="0 0 140 140" width="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><filter id="a" filterUnits="userSpaceOnUse" height="140" width="140" x="0" y="0"><feOffset dx="5" dy="5"/><feGaussianBlur result="blur" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur" operator="in"/><feComposite in="SourceGraphic"/></filter><g filter="url(#a)"><circle cx="61" cy="61" fill="#f46b0c" r="61" transform="translate(4 4)"/></g></svg>
