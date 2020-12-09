@@ -259,6 +259,14 @@ p {
     margin: 0 5rem 0;
   }
 
+  .under-contact {
+    margin-left: 0;
+  }
+
+  .about-header {
+    margin-left: 50px;
+  }
+
   nav li a{
     font-size: 17.93px;
   }
