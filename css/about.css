@@ -16,9 +16,10 @@ html {
 }
 
 body {
-  position: inherit;
+  margin: 0;
+  /* position: inherit;
   width: 100%;
-  height: 100%;
+  height: 100%; */
 }
 
 *, *::before, *::after {
@@ -26,6 +27,7 @@ body {
 }
 
 nav {
+  padding: 1em;
   list-style: none;
   display: grid;
   grid-template-areas:
@@ -39,11 +41,13 @@ nav li a {
 .dots-nav {
   grid-area: navigation;
   margin-top: 4em;
+  text-align: center;
 }
 
 .logo-small {
+  margin-top: 35px;
   grid-area: logo;
-  margin: 35px 0 0 7px;
+  text-align: center;
 }
 
 .hide {

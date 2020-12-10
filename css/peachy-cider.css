@@ -21,12 +21,17 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   max-width: 100%;
 }
 
 
 nav {
+  padding: 1em;
   list-style: none;
   display: grid;
   grid-template-areas:
@@ -40,11 +45,13 @@ nav li a {
 .dots-nav {
   grid-area: navigation;
   margin-top: 4em;
+  text-align: center;
 }
 
 .logo-small {
+  margin-top: 35px;
   grid-area: logo;
-  margin: 35px 0 0 7px;
+  text-align: center;
 }
 
 .hide {
