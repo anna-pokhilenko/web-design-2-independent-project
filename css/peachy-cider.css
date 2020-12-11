@@ -74,7 +74,7 @@ main {
   "no no blk"
   "p3 p3 none"
   "rright rright rright"
-  "p4 p4 nothing01"
+  "p4 p4 p4"
   "lleft lleft lleft"
   "board board board"
   "nono contact nono1";
@@ -134,7 +134,8 @@ h1 {
 
 .para-4 {
   grid-area: p4;
-  margin: 4em 0 6em 2em;
+  margin: 4em 2em 6em 2em;
+
 }
 
 .beer-left {
@@ -150,6 +151,7 @@ h1 {
 
 .board-cap {
   text-align: center;
+  margin-top: .5em;
 }
 
 aside {
