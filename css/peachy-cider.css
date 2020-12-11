@@ -68,7 +68,7 @@ main {
   "header header header"
   "nothing p1 p1"
   "nothing p2 p2"
-  "straight straight no1"
+  "straight straight straight"
   "no no purp"
   "no no oran"
   "no no blk"
@@ -105,6 +105,7 @@ h1 {
 
 .beer-straight {
   grid-area: straight;
+  padding: 0 0 0 2em;
 }
 
 .purple-circle {
@@ -128,6 +129,7 @@ h1 {
 
 .beer-right {
   grid-area: rright;
+  padding: 0 2em 0 0;
 }
 
 .para-4 {
@@ -137,7 +139,7 @@ h1 {
 
 .beer-left {
   grid-area: lleft;
-  padding: 0 2em;
+  padding: 0 0 0 2em ;
 }
 
 .moodboard {
