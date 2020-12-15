@@ -48,6 +48,11 @@ nav li a {
   text-align: center;
 }
 
+.contact-c {
+  display: flex;
+  align-items: stretch;
+}
+
 .logo-small {
   margin-top: 35px;
   grid-area: logo;
@@ -194,17 +199,9 @@ aside {
     "p4 p4 p4"
     "lleft lleft lleft"
     "board board board"
-    "nono nono contact";
+    "nono contact nono1";
 
       grid-gap: 5px;
-  }
-
-  .dots-nav {
-    display: none;
-  }
-
-  .hide {
-    display: contents;
   }
 
   nav {
@@ -223,9 +220,21 @@ aside {
     margin: 4.5em 3em;
   }
 
+  h1 {
+    margin-top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
+
+  .dots-nav {
+    display: none;
+  }
+
+  .hide {
+    display: contents;
+  }
 
   h1 {
     margin-top: 0;
@@ -250,7 +259,7 @@ aside {
     "p4 p4 p4"
     "lleft lleft lleft"
     "board board board"
-    "nono nono contact";
+    "nono contact nono0";
 
       grid-gap: 5px;
   }
@@ -259,4 +268,43 @@ aside {
     max-width: 70%;
   }
 
+  .moodboard {
+    margin-top: 4em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    display: grid;
+    grid-template-areas:
+    "noy noy header header"
+    "noy noy p1 p1"
+    "straight straight p2 p2"
+    "straight straight not not"
+    "straight purp oran blk"
+    "p3 p3 rright rright"
+    "p3 p3 rright rright"
+    "p4 p4 lleft lleft"
+    "p4 p4 lleft lleft"
+    "notr board board notr"
+    "nono nono contact nono0";
+
+      grid-gap: 5px;
+  }
+
+  .para-1 {
+    grid-area: p1;
+    margin: .5em 2em .5em 0;
+  }
+
+  .para-2 {
+    grid-area: p2;
+    margin: 0 2em 2em 0;
+  }
+
+  h1 {
+    text-align: left;
+  }
 }
