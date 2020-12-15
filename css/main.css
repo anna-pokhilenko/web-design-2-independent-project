@@ -16,9 +16,6 @@ html {
 
 body {
   margin: 0;
-    /* position: inherit;
-    width: 100%;
-    height: 100%; */
 }
 
 *, *::before, *::after {
@@ -63,6 +60,12 @@ main {
   grid-template-areas:
     "empty welcome welcome"
     "my-works my-works my-works"
+    "nono nono contact";
+}
+
+.contact-c {
+  grid-area: contact;
+  margin: 4em 0 4em;
 }
 
 .intro {
@@ -117,24 +120,9 @@ ul {
   top: 10px;
 }
 
-footer {
-  display: grid;
-  grid-template-areas:
-    "nothing1 nothing1"
-    "nothing contact"
-    "nothing3 nothing3"
-    "nothing2 right";
-  grid-gap: 30px;
-}
-
-.contact {
-  grid-area: contact;
-  position:relative;
-  align-items: center;
-}
-
 aside {
-  grid-area: right;
+  text-align: center;
+  font-size: 14.05px;
 }
 
 @media only screen and (min-width: 26em) {
@@ -144,20 +132,11 @@ aside {
     grid-template-areas:
       "empty empty welcome welcome"
       "empty2 my-works my-works my-works"
+      "nono nono nono contact";
   }
 
   li {
     text-align: left;
-  }
-
-  footer {
-    display: grid;
-    grid-template-areas:
-      "nothing1 nothing1 nothing1"
-      "nothing nothing contact"
-      "nothing3 nothing3 nothing3"
-      "nothing2 right nothing4";
-    grid-gap: 20px;
   }
 
   p {
@@ -190,9 +169,6 @@ aside {
     margin: 4.5em 3em;
   }
 
-  aside {
-    text-align: center;
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -201,7 +177,9 @@ aside {
     display: grid;
     grid-template-areas:
       "empty0 empty0 empty0 empty0 empty0 empty0 "
-      "empty my-works my-works empty2 welcome welcome";
+      "empty my-works my-works empty2 welcome welcome"
+      "nono nono nono nono contact nono1";
+
     grid-gap: 30px;
   }
 
@@ -210,13 +188,8 @@ aside {
     position: inherit;
   }
 
-  footer {
-    display: grid;
-    grid-template-areas:
-      "nothing nothing contact"
-      "nothing3 nothing3 nothing3"
-      "nothing2 right nothing4";
-    grid-gap: 20px;
+  .contact-c {
+    margin-top: 0;
   }
 
 }
@@ -231,7 +204,8 @@ aside {
     display: grid;
     grid-template-areas:
       "empty0 empty0 empty0 empty0 empty0 empty0 empty0"
-      "empty empty my-works my-works empty2 welcome welcome";
+      "empty empty my-works my-works empty2 welcome welcome"
+      "nono nono nono nono nono contact nono1";
     grid-gap: 30px;
   }
 

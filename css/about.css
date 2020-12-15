@@ -17,9 +17,7 @@ html {
 
 body {
   margin: 0;
-  /* position: inherit;
-  width: 100%;
-  height: 100%; */
+  padding: 0 1.5em;
 }
 
 *, *::before, *::after {
@@ -45,7 +43,7 @@ nav li a {
 }
 
 .logo-small {
-  margin-top: 35px;
+  margin: 35px 0 0;
   grid-area: logo;
   text-align: center;
 }
@@ -63,7 +61,7 @@ nav li a {
   grid-template-areas:
     "none0 none0 none0"
     "header header header"
-    "para1 para1 none"
+    "para1 para1 para1"
     "none2 para2 para2"
     "none3 para3 para3"
     "none4 para4 para4"
@@ -72,7 +70,7 @@ nav li a {
     "none6 list list"
     "nothing0 nothing0 nothing0"
     "header-c header-c header-c"
-    "p1 p1 nothing"
+    "p1 p1 p1"
     "nothing2 p2 p2";;
 
   grid-gap: 5px;
@@ -140,6 +138,7 @@ h3 {
 
 .right-side-contact {
   grid-area: p2;
+  margin-bottom: 4em;
   /* margin: 0  2.3em 4.5em 0; */
 }
 
@@ -163,7 +162,7 @@ p {
   }
 
   html {
-    margin: 0 1.6rem 0;
+    /* margin: 0 1.6rem 0; */
   }
 
   .dots-nav {
@@ -272,7 +271,7 @@ p {
 
   html {
     font-size: 130%;
-    margin: 0 5rem 0;
+    /* margin: 0 5rem 0; */
   }
 
   .under-contact {
@@ -281,10 +280,6 @@ p {
 
   .about-header {
     /* margin-left: 50px; */
-  }
-
-  nav li a{
-    font-size: 17.93px;
   }
 
   p {
@@ -322,21 +317,13 @@ p {
     grid-gap: 5px;
   } */
 
-  .logo-small {
-    margin: 70px 0 0 7px;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
 
-  nav li a{
-    font-size: 17.93px;
-  }
-
   html {
     font-size: 130%;
-    margin: 0 5rem 0;
+    /* margin: 0 5rem 0; */
   }
 
   p {
