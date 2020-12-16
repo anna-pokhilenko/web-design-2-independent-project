@@ -24,34 +24,6 @@ body {
   box-sizing: inherit;
 }
 
-nav {
-  padding: 1em;
-  list-style: none;
-  display: grid;
-  grid-template-areas:
-    "logo none navigation";
-}
-
-nav li a {
-  color: #000;
-}
-
-.dots-nav {
-  grid-area: navigation;
-  margin-top: 4em;
-  text-align: center;
-}
-
-.logo-small {
-  margin: 35px 0 0;
-  grid-area: logo;
-  text-align: center;
-}
-
-.hide {
-  display: none;
-}
-
 .orange {
   color: #f46b0c;
 }
@@ -165,30 +137,6 @@ p {
     /* margin: 0 1.6rem 0; */
   }
 
-  .dots-nav {
-    display: none;
-  }
-
-  .hide {
-    display: contents;
-  }
-
-  nav {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    list-style: none;
-  }
-
-  nav li a{
-    font-weight: 700;
-    font-size: 17.93px;
-  }
-
-  nav li {
-    margin: 4.5em 3em;
-  }
-
   .about-header,
   .contact-header {
     text-align: left;
@@ -269,7 +217,7 @@ p {
 
 @media only screen and (min-width: 60em) {
 
-  html {
+  p {
     font-size: 130%;
     /* margin: 0 5rem 0; */
   }
@@ -320,11 +268,6 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-    /* margin: 0 5rem 0; */
-  }
 
   p {
     max-width: 400px;

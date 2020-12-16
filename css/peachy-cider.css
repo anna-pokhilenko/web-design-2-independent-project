@@ -5,16 +5,14 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-    box-sizing: border-box;
-    font-family: span, serif;
-    margin: 0;
-
+  font-family: span, serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -23,6 +21,7 @@ html {
 
 body {
   margin: 0;
+  line-height: 1.4;
 }
 
 .img-flex {
@@ -30,37 +29,9 @@ body {
   width: 100%;
 }
 
-nav {
-  padding: 1em;
-  list-style: none;
-  display: grid;
-  grid-template-areas:
-    "logo none navigation";
-}
-
-nav li a {
-  color: #000;
-}
-
-.dots-nav {
-  grid-area: navigation;
-  margin-top: 4em;
-  text-align: center;
-}
-
 .contact-c {
   display: flex;
   align-items: stretch;
-}
-
-.logo-small {
-  margin-top: 35px;
-  grid-area: logo;
-  text-align: center;
-}
-
-.hide {
-  display: none;
 }
 
 p {
@@ -204,22 +175,6 @@ aside {
       grid-gap: 5px;
   }
 
-  nav {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    list-style: none;
-  }
-
-  nav li a{
-    font-weight: 700;
-    font-size: 17.93px;
-  }
-
-  nav li {
-    margin: 4.5em 3em;
-  }
-
   h1 {
     margin-top: 0;
   }
@@ -276,14 +231,23 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
+  p {
+    font-size: 130%;
+  }
+
+  body {
+    padding: 0 10em;
+  }
+
   main {
     display: grid;
     grid-template-areas:
     "noy noy header header"
     "noy noy p1 p1"
     "straight straight p2 p2"
-    "straight straight not not"
-    "straight purp oran blk"
+    "straight straight not purp"
+    "straight straight noo oran"
+    "straight straight noo blk"
     "p3 p3 rright rright"
     "p3 p3 rright rright"
     "p4 p4 lleft lleft"
@@ -295,16 +259,35 @@ aside {
   }
 
   .para-1 {
-    grid-area: p1;
     margin: .5em 2em .5em 0;
   }
 
   .para-2 {
-    grid-area: p2;
     margin: 0 2em 2em 0;
   }
 
   h1 {
     text-align: left;
   }
+
+  .purple-circle {
+    margin-top: 33em;
+  }
+
+  .black-circle {
+    margin-bottom: 10em;
+  }
+
+  .beer-straight {
+  max-width: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  p {
+    font-size: 130%;
+  }
+
 }

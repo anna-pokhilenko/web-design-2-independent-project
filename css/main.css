@@ -12,6 +12,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: span, serif;
+  line-height: 1.4;
 }
 
 body {
@@ -25,34 +26,6 @@ body {
 .aside-size {
   font-size: 14.05px;
   text-align: left;
-}
-
-.hide {
-  display: none;
-}
-
-nav {
-  padding: 1em;
-  list-style: none;
-  display: grid;
-  grid-template-areas:
-    "logo none navigation";
-}
-
-nav li a {
-  color: #000;
-}
-
-.dots-nav {
-  grid-area: navigation;
-  margin-top: 4em;
-  text-align: center;
-}
-
-.logo-small {
-  margin-top: 35px;
-  grid-area: logo;
-  text-align: center;
 }
 
 main {
@@ -145,30 +118,6 @@ aside {
     left: 6em;
   }
 
-  .dots-nav {
-    display: none;
-  }
-
-  .hide {
-    display: contents;
-  }
-
-  nav {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    list-style: none;
-  }
-
-  nav li a{
-    font-weight: 700;
-    font-size: 17.93px;
-  }
-
-  nav li {
-    margin: 4.5em 3em;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -196,6 +145,10 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
+  p {
+    font-size: 130%;
+  }
+
   main li:last-child {
     margin-bottom: 0;
   }
@@ -216,6 +169,13 @@ aside {
 
   .s-screens {
     display: none;
+  }
+
+  .small-caps1,
+  .small-caps2,
+  .small-caps3 {
+  font-size: 80%;
+  top: 4px;
   }
 
 }
