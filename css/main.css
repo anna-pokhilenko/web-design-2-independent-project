@@ -38,11 +38,11 @@ main {
 
 .contact-c {
   grid-area: contact;
-  margin: 4em 0 4em;
+  margin: 4em 0;
 }
 
 .intro {
-  font-weight: 700;
+  font-weight: bold;
   grid-area: welcome;
 }
 
@@ -77,19 +77,19 @@ ul {
 
 .small-caps1 {
   padding-left: 4em;
-  position:relative;
+  position: relative;
   top: 10px;
 }
 
 .small-caps2 {
   padding-left: 8.6em;
-  position:relative;
+  position: relative;
   top: 10px;
 }
 
 .small-caps3 {
   padding-left: 11em;
-  position:relative;
+  position: relative;
   top: 10px;
 }
 
@@ -141,16 +141,10 @@ aside {
     margin-top: 0;
   }
 
-  .small-caps1 {
-    left: 0px;
-  }
-
-  .small-caps2 {
-    left: 0px;
-  }
-
+  .small-caps1,
+  .small-caps2,
   .small-caps3 {
-    left: 0px;
+    left: 0;
   }
 
 }
@@ -175,7 +169,7 @@ aside {
   }
 
   .contact {
-    position:relative;
+    position: relative;
     bottom: 60px;
   }
 
@@ -190,7 +184,7 @@ aside {
   .small-caps1,
   .small-caps2,
   .small-caps3 {
-  top: 4px;
+    top: 4px;
   }
 
 }
@@ -221,4 +215,5 @@ aside {
   .small-caps3 {
     left: 116px;
   }
+
 }
