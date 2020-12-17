@@ -233,6 +233,12 @@ aside {
 
   p {
     font-size: 130%;
+  }
+
+  .para-1,
+  .para-2,
+  .para-3,
+  .para-4 {
     max-width: 450px;
   }
 
@@ -276,12 +282,12 @@ aside {
   }
 
   .black-circle {
-    margin-bottom: 10em;
+    margin-bottom: 25em;
   }
 
   .beer-straight {
     min-height: 400px;
-    min-width: 600px;
+    min-width: 700px;
   }
 
   .beer-left {
