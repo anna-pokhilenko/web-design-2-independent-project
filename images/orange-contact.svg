@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140"><filter id="a" width="140" height="140" x="0" y="0" filterUnits="userSpaceOnUse"><feOffset dx="5" dy="5"/>
-<feGaussianBlur result="blur" stdDeviation="3"/><feFlood flood-opacity=".16"/>
-<feComposite in2="blur" operator="in"/> <feComposite in="SourceGraphic"/></filter><circle cx="61" cy="61" r="61" fill="#f46b0c" filter="url(#a)" transform="translate(4 4)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140"><filter id="a" width="140" height="140" x="0" y="0" filterUnits="userSpaceOnUse"><feOffset dx="5" dy="5"/><feGaussianBlur result="blur" stdDeviation="3"/><feFlood flood-opacity=".16"/><feComposite in2="blur" operator="in"/><feComposite in="SourceGraphic"/></filter><circle cx="61" cy="61" r="61" fill="#f46b0c" filter="url(#a)" transform="translate(4 4)"/></svg>
