@@ -22,7 +22,7 @@ body {
   box-sizing: inherit;
 }
 
-nav {
+ul {
   padding: 1em;
   list-style: none;
   display: grid;
@@ -30,7 +30,7 @@ nav {
     "logo none navigation";
 }
 
-nav li a {
+ul li a {
   color: #000;
 }
 
@@ -60,19 +60,19 @@ nav li a {
     display: contents;
   }
 
-  nav {
+  ul {
     display: flex;
     flex-direction:row;
     justify-content: center;
     list-style: none;
   }
 
-  nav li a{
+  ul li a{
     font-weight: 700;
     font-size: 17.93px;
   }
 
-  nav li {
+  ul li {
     margin: 4.5em 3em;
   }
 
