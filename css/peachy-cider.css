@@ -13,6 +13,7 @@ html {
 
   font-family: span, serif;
   line-height: 1.4;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -133,7 +134,7 @@ h1 {
   margin-top: .5em;
 }
 
-aside {
+.aside {
   text-align: center;
   font-size: 14.05px;
 }
@@ -232,6 +233,10 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    margin: 0;
+  }
+
   h1 {
     margin-top: 2em;
   }
@@ -321,7 +326,7 @@ aside {
     "p3 p3 rright rright"
     "p4 p4 lleft lleft"
     "p4 p4 lleft lleft"
-    "board board board board"
+    "board board board nono0"
     "nono nono contact nono0";
 
       grid-gap: 5px;
