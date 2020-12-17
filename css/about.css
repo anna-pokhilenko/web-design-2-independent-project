@@ -52,32 +52,30 @@ body {
   grid-area: header;
   text-align: center;
   font-size: 44.44px;
-  /* margin: 1em 0 1em; */
 }
 
 .under-about {
     grid-area: para1;
-    /* margin: 0 0 .7em 2.3em; */
 }
 
 .right-side-about{
   grid-area: para2;
-  /* margin: .7em  2.3em 0 0; */
 }
 
 .right-side-about-next{
   grid-area: para3;
-  /* margin: .7em  2.3em 0 0; */
 }
 
 .right-side-about-next2{
   grid-area: para4;
-  /* margin: .7em  2.3em 0 0; */
 }
 
 h3 {
   grid-area: service;
-  /* margin: 2em 0 0 2.3em; */
+}
+
+ul {
+  list-style: none;
 }
 
 .my-list {
@@ -85,33 +83,28 @@ h3 {
   margin: .7em 2.3em .7em 0;
 }
 
-/* .contact-section {
-  display: grid;
-  grid-template-areas:
-    "nothing0 nothing0 nothing0"
-    "header-c header-c header-c"
-    "p1 p1 nothing"
-    "nothing2 p2 p2";
-
-  grid-gap: 5px;
-} */
+ul li::before {
+  content: "\2022";
+  color: #f46b0c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 
 .contact-header {
   grid-area: header-c;
   text-align: center;
   font-size: 44.44px;
-  /* margin: 1em 0 1em; */
 }
 
 .under-contact {
   grid-area: p1;
-  /* margin: 0 0 .7em 2.3em; */
 }
 
 .right-side-contact {
   grid-area: p2;
   margin-bottom: 4em;
-  /* margin: 0  2.3em 4.5em 0; */
 }
 
 .bold {
@@ -130,17 +123,11 @@ p {
 @media only screen and (min-width: 26em) {
 
   .contact-header {
-    /* margin: 2em 0 1em; */
-  }
-
-  html {
-    /* margin: 0 1.6rem 0; */
   }
 
   .about-header,
   .contact-header {
     text-align: left;
-    /* margin-left: 36.8px; */
   }
 
   .about-section {
@@ -162,25 +149,10 @@ p {
 
     grid-gap: 5px;
   }
-/*
-  .contact-section {
-    display: grid;
-    grid-template-areas:
-      "nothing0 nothing0 nothing0 nothing0"
-      "header-c header-c header-c header-c"
-      "p1 p1 p1 nothing"
-      "nothing2 nothing2 p2 p2";
-
-    grid-gap: 5px;
-  } */
 
 }
 
 @media only screen and (min-width: 38em) {
-
-  .contact-header {
-    /* margin: 3em 0 1em; */
-  }
 
   .about-section {
     display: grid;
@@ -202,36 +174,22 @@ p {
     grid-gap: 5px;
   }
 
-  /* .contact-section {
-    display: grid;
-    grid-template-areas:
-      "nothing00 nothing0 nothing0 nothing0 nothing0 nothing0"
-      "nothing00 header-c header-c header-c header-c header-c"
-      "nothing00 p1 p1 p1 nothing nothing"
-      "nothing00 nothing2 nothing2 nothing2 p2 p2";
-
-    grid-gap: 5px;
-  } */
-
 }
 
 @media only screen and (min-width: 60em) {
 
   p {
     font-size: 130%;
-    /* margin: 0 5rem 0; */
-  }
-
-  .under-contact {
-    /* margin-left: 0; */
-  }
-
-  .about-header {
-    /* margin-left: 50px; */
-  }
-
-  p {
     max-width: 350px;
+  }
+
+  h3 {
+    font-size: 130%;
+    margin-bottom: 0;
+  }
+
+  .my-list {
+    font-size: 130%;
   }
 
   .about-section {
@@ -245,7 +203,7 @@ p {
       "none000 none000 none4 none4 para4 para4"
       "none000 none000 none00 none00 none00 none00"
       "none000 none000 service service none5 none5"
-      "none000 none000 none6 list list list"
+      "none000 none000 list list list list"
       "nothing0 nothing0 nothing0 nothing0 nothing0 nothing0"
       "nothing00 nothing00 header-c header-c header-c header-c"
       "nothing00 nothing00 p1 p1 p2 p2"
@@ -253,17 +211,6 @@ p {
 
     grid-gap: 5px;
   }
-
-  /* .contact-section {
-    display: grid;
-    grid-template-areas:
-      "nothing0 nothing0 nothing0 nothing0 nothing0 nothing0"
-      "nothing00 nothing00 header-c header-c header-c header-c"
-      "nothing00 nothing00 p1 p1 p2 p2"
-      "nothing00 nothing00 nothing2 nothing2 p2 p2";
-
-    grid-gap: 5px;
-  } */
 
 }
 

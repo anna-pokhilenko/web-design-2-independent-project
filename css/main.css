@@ -171,11 +171,26 @@ aside {
     display: none;
   }
 
+  ul {
+    margin-top: 0;
+  }
+
   .small-caps1,
   .small-caps2,
   .small-caps3 {
-  font-size: 80%;
   top: 4px;
+  }
+
+  .small-caps1 {
+    left: 75px;
+  }
+
+  .small-caps2 {
+    left: 105px;
+  }
+
+  .small-caps3 {
+    left: 116px;
   }
 
 }
