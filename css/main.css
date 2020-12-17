@@ -141,6 +141,18 @@ aside {
     margin-top: 0;
   }
 
+  .small-caps1 {
+    left: 0px;
+  }
+
+  .small-caps2 {
+    left: 0px;
+  }
+
+  .small-caps3 {
+    left: 0px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -181,18 +193,6 @@ aside {
   top: 4px;
   }
 
-  .small-caps1 {
-    left: 75px;
-  }
-
-  .small-caps2 {
-    left: 105px;
-  }
-
-  .small-caps3 {
-    left: 116px;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -208,5 +208,17 @@ aside {
 
   body {
     padding: 0 7em;
+  }
+
+  .small-caps1 {
+    left: 75px;
+  }
+
+  .small-caps2 {
+    left: 105px;
+  }
+
+  .small-caps3 {
+    left: 116px;
   }
 }
