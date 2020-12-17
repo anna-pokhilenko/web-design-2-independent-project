@@ -206,4 +206,7 @@ aside {
     font-size: 62.46px;
   }
 
+  body {
+    padding: 0 7em;
+  }
 }
