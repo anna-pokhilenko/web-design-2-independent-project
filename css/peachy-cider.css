@@ -233,17 +233,18 @@ aside {
 
   p {
     font-size: 130%;
+    max-width: 450px;
   }
 
   body {
-    padding: 0 10em;
+    padding: 0 4em;
   }
 
   main {
     display: grid;
     grid-template-areas:
     "noy noy header header"
-    "noy noy p1 p1"
+    "straight straight  p1 p1"
     "straight straight p2 p2"
     "straight straight not purp"
     "straight straight noo oran"
@@ -279,7 +280,24 @@ aside {
   }
 
   .beer-straight {
-  max-width: 120%;
+    min-height: 400px;
+    min-width: 600px;
+  }
+
+  .beer-left {
+    min-height: 600px;
+    min-width: 600px;
+    position: relative;
+    left:-30px;
+    margin-bottom: 10em;
+  }
+
+  .beer-right {
+    min-height: 600px;
+    min-width: 700px;
+    position: relative;
+    left:-100px;
+    margin-bottom: 15em;
   }
 
 }
