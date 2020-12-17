@@ -231,6 +231,10 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
+  h1 {
+    margin-top: 2em;
+  }
+
   .contact-c {
     position: relative;
     left: -65px;
