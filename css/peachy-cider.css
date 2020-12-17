@@ -231,6 +231,11 @@ aside {
 
 @media only screen and (min-width: 60em) {
 
+  .contact-c {
+    position: relative;
+    left: -65px;
+  }
+
   p {
     font-size: 130%;
   }
