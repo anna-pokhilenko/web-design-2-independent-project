@@ -25,6 +25,15 @@ body {
   line-height: 1.4;
 }
 
+.skip-links {
+  display: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -8em;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -131,11 +140,9 @@ h1 {
   margin-top: .5em;
 }
 
-.aside {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 14.05px;
+aside {
+  text-align: center;
+  font-size: .8781rem;
 }
 
 @media only screen and (min-width: 26em) {
@@ -277,6 +284,7 @@ h1 {
 
   .purple-circle {
     margin-top: 10em;
+    margin-right: 15em;
   }
 
   .black-circle {

@@ -6,14 +6,21 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/peachy-cider.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/ljm3qxs.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav" tabindex="0">Skip to navigation</a></li>
+    <li><a href="#main" tabindex="0">Skip to the main content</a></li>
+  </ul>
+
+
   <header role="banner">
-    <nav role="navigation">
+    <nav role="navigation" id="nav" tabindex="0">
       <ul>
         <li><a href="about.html" class="hide about about-me-hover">about</a></li>
         <li class="logo-small">
@@ -30,12 +37,12 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="63.644" height="32.288"><defs><filter id="a" x="0" y="0" width="32.288" height="32.288" filterUnits="userSpaceOnUse"><feOffset dx="5" dy="5"/><feGaussianBlur stdDeviation="3" result="blur"/><feFlood flood-opacity=".161"/><feComposite operator="in" in2="blur"/><feComposite in="SourceGraphic"/></filter><filter id="b" x="16.644" y=".644" width="31" height="31" filterUnits="userSpaceOnUse"><feOffset dx="5" dy="5"/><feGaussianBlur stdDeviation="3" result="blur-2"/><feFlood flood-opacity=".161"/><feComposite operator="in" in2="blur-2"/><feComposite in="SourceGraphic"/></filter><filter id="c" x="32.644" y=".644" width="31" height="31" filterUnits="userSpaceOnUse"><feOffset dx="5" dy="5"/><feGaussianBlur stdDeviation="3" result="blur-3"/><feFlood flood-opacity=".161"/><feComposite operator="in" in2="blur-3"/><feComposite in="SourceGraphic"/></filter></defs><g filter="url(#a)"><circle data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="matrix(-.1 -.99 .99 -.1 5.36 18.29)" fill="#f46b0c"/></g><g filter="url(#b)"><circle data-name="Ellipse 10" cx="6.5" cy="6.5" r="6.5" transform="rotate(-90 19.14 -1.5)" fill="#f46b0c"/></g><g filter="url(#c)"><circle data-name="Ellipse 11" cx="6.5" cy="6.5" r="6.5" transform="rotate(-90 27.14 -9.5)" fill="#f46b0c"/></g></svg>
 
       </li>
-      <li><a href="#" class="hide my-works contact-me-hover">contact</a></li>
+      <li><a href="about.html#contact" class="hide my-works contact-me-hover">contact</a></li>
       </ul>
   </nav>
 </header>
 
-    <main role="main">
+    <main role="main" id="main" tabindex="0">
       <section class="main-section">
         <h1>Peachy Cider</h1>
         <p class="para-1">This is a personal project that was done at the social design hour hosted by @ottdesignclub.</p>
@@ -69,7 +76,7 @@
     </main>
 
     <footer role="contentinfo">
-      <p class="aside">© Anna Pokhilenko 2020</p>
+      <aside>© Anna Pokhilenko 2020</aside>
     </footer>
 
 </body>

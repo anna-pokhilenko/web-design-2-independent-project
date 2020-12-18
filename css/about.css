@@ -24,6 +24,20 @@ body {
   box-sizing: inherit;
 }
 
+aside {
+  text-align: center;
+  font-size: .8781rem;
+}
+
+.skip-links {
+  display: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -8em;
+}
+
 .orange {
   color: #f46b0c;
 }
@@ -109,13 +123,6 @@ ul {
 
 .bold {
   font-weight: 700;
-}
-
-.aside {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 14.05px;
 }
 
 p {

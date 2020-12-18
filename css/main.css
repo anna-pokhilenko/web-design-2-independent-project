@@ -36,11 +36,6 @@ body {
   display: none;
 }
 
-.aside-size {
-  font-size: .8781rem;
-  text-align: left;
-}
-
 .main-section {
   display: grid;
   grid-template-areas:
@@ -106,7 +101,7 @@ ul {
   top: .625rem;
 }
 
-.aside {
+aside {
   text-align: center;
   font-size: .8781rem;
 }

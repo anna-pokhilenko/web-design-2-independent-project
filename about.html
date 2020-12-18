@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/about.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon-196.png">
   </head>
@@ -18,7 +19,7 @@
   </ul>
 
     <header role="banner">
-      <nav role="navigation" id="nav">
+      <nav role="navigation" id="nav" tabindex="0">
         <ul>
           <li><a href="about.html" class="hide about about-me-hover" aria-label="Read more about designer">about</a></li>
           <li class="logo-small">
@@ -31,12 +32,12 @@
           </li>
           <!-- <li class="dots-nav"> <a aria-label="All navigation options" href="#">
         </li> -->
-        <li><a href="#" aria-label="Jump to contact information" class="hide my-works contact-me-hover">contact</a></li>
+        <li><a href="#contact" aria-label="Jump to contact information" class="hide my-works contact-me-hover">contact</a></li>
         </ul>
     </nav>
   </header>
 
-    <main role="main" id="main">
+    <main role="main" id="main" tabindex="0">
       <section class="about-section">
         <h2 class="about-header">About</h2>
         <p class="under-about">Hi, I am glad you made it to this page! I want to tell you more about who I am and how <span class="orange">you can use my help.</span></p>
@@ -52,15 +53,15 @@
           <li>Advertising & Marketing Design</li>
         </ul>
 
-        <h2 class="contact-header">Contact Me</h2>
+        <h2 class="contact-header" id="contact">Contact Me</h2>
         <p class="under-contact">At the moment, I am ready to work on <span class="orange">individual projects</span> as well as become a <span class="orange">member of a team.</span></p>
         <p class="right-side-contact"> <span class="bold">Let’s talk!</span> <br> Email: <span class="orange">aine.design@gmail.com</span> <br> Instagram: <span class="orange">@aine.design</span></p>
       </section>
 
     </main>
 
-    <footer class="aside-center" role="contentinfo">
-      <p class="aside">© Anna Pokhilenko 2020</p>
+    <footer role="contentinfo">
+      <aside>© Anna Pokhilenko 2020</aside>
     </footer>
 
   </body>
