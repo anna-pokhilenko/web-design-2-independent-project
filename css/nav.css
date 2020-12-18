@@ -34,6 +34,17 @@ nav ul li a {
   color: #000;
 }
 
+nav ul li .about-me-hover:hover,
+nav ul li .contact-me-hover:hover {
+  display: block;
+  color: #f46b0c;
+}
+
+nav ul li .about-me-hover:active,
+nav ul li .contact-me-hover:active {
+  color: #f46b0c;
+}
+
 .dots-nav {
   grid-area: navigation;
   margin-top: 4em;

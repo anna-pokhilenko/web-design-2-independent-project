@@ -23,12 +23,25 @@ body {
   box-sizing: inherit;
 }
 
+.skip-links {
+  display: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -8em;
+}
+
+.hide-h1 {
+  display: none;
+}
+
 .aside-size {
-  font-size: 14.05px;
+  font-size: .8781rem;
   text-align: left;
 }
 
-main {
+.main-section {
   display: grid;
   grid-template-areas:
     "empty welcome welcome"
@@ -62,7 +75,7 @@ main li a {
   text-decoration: none;
   color: #000;
   font-weight: 300;
-  font-size: 44.44px;
+  font-size: 2.7775rem;
 }
 
 li {
@@ -78,29 +91,29 @@ ul {
 .small-caps1 {
   padding-left: 4em;
   position: relative;
-  top: 10px;
+  top: .625rem;
 }
 
 .small-caps2 {
   padding-left: 8.6em;
   position: relative;
-  top: 10px;
+  top: .625rem;
 }
 
 .small-caps3 {
   padding-left: 11em;
   position: relative;
-  top: 10px;
+  top: .625rem;
 }
 
 .aside {
   text-align: center;
-  font-size: 14.05px;
+  font-size: .8781rem;
 }
 
 @media only screen and (min-width: 26em) {
 
-  main {
+  .main-section {
     display: grid;
     grid-template-areas:
       "empty empty welcome welcome"
@@ -122,14 +135,14 @@ ul {
 
 @media only screen and (min-width: 38em) {
 
-  main {
+  .main-section {
     display: grid;
     grid-template-areas:
       "empty0 empty0 empty0 empty0 empty0 empty0 "
       "empty my-works my-works empty2 welcome welcome"
       "nono nono nono nono contact nono1";
 
-    grid-gap: 30px;
+    grid-gap: 1.875rem;
   }
 
   p {
@@ -159,18 +172,18 @@ ul {
     margin-bottom: 0;
   }
 
-  main {
+  .main-section {
     display: grid;
     grid-template-areas:
       "empty0 empty0 empty0 empty0 empty0 empty0 empty0"
       "empty empty my-works my-works empty2 welcome welcome"
       "nono nono nono nono nono contact nono1";
-    grid-gap: 30px;
+    grid-gap: 1.875rem;
   }
 
   .contact {
     position: relative;
-    bottom: 60px;
+    bottom: 3.75rem;
   }
 
   .s-screens {
@@ -184,7 +197,7 @@ ul {
   .small-caps1,
   .small-caps2,
   .small-caps3 {
-    top: 4px;
+    top: .25rem;
   }
 
 }
@@ -193,11 +206,11 @@ ul {
 
   p {
     margin: 6em 0;
-    font-size: 23.61px;
+    font-size: 1.4756rem;
   }
 
   main li a {
-    font-size: 62.46px;
+    font-size: 3.9037rem;
   }
 
   body {
@@ -205,15 +218,15 @@ ul {
   }
 
   .small-caps1 {
-    left: 75px;
+    left: 4.6875rem;
   }
 
   .small-caps2 {
-    left: 105px;
+    left: 6.5625rem;
   }
 
   .small-caps3 {
-    left: 116px;
+    left: 7.25rem;
   }
 
 }
