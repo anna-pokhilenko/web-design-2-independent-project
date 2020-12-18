@@ -24,6 +24,7 @@ body {
 
 nav ul {
   padding: 1em;
+  margin: 0;
   list-style: none;
   display: grid;
   grid-template-areas:
