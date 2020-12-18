@@ -45,19 +45,19 @@ aside {
 .about-section {
   display: grid;
   grid-template-areas:
-    "none0 none0 none0"
-    "header header header"
-    "para1 para1 para1"
-    "none2 para2 para2"
-    "none3 para3 para3"
-    "none4 para4 para4"
-    "none00 none00 none00"
-    "service service none5"
-    "none6 list list"
-    "nothing0 nothing0 nothing0"
-    "header-c header-c header-c"
-    "p1 p1 p1"
-    "nothing2 p2 p2";;
+  "none0 none0 none0"
+  "header header header"
+  "para1 para1 para1"
+  "none2 para2 para2"
+  "none3 para3 para3"
+  "none4 para4 para4"
+  "none00 none00 none00"
+  "service service none5"
+  "none6 list list"
+  "nothing0 nothing0 nothing0"
+  "header-c header-c header-c"
+  "p1 p1 p1"
+  "nothing2 p2 p2";;
 
   grid-gap: 5px;
 }
@@ -69,7 +69,7 @@ aside {
 }
 
 .under-about {
-    grid-area: para1;
+  grid-area: para1;
 }
 
 .right-side-about{
@@ -142,19 +142,19 @@ p {
   .about-section {
     display: grid;
     grid-template-areas:
-      "none0 none0 none0 none0"
-      "header header header header"
-      "para1 para1 none none"
-      "none2 none2 para2 para2"
-      "none3 none3 para3 para3"
-      "none4 none4 para4 para4"
-      "none00 none00 none00 none00"
-      "service service none5 none5"
-      "none6 list list list"
-      "nothing0 nothing0 nothing0 nothing0"
-      "header-c header-c header-c header-c"
-      "p1 p1 p1 nothing"
-      "nothing2 nothing2 p2 p2";;
+    "none0 none0 none0 none0"
+    "header header header header"
+    "para1 para1 none none"
+    "none2 none2 para2 para2"
+    "none3 none3 para3 para3"
+    "none4 none4 para4 para4"
+    "none00 none00 none00 none00"
+    "service service none5 none5"
+    "none6 list list list"
+    "nothing0 nothing0 nothing0 nothing0"
+    "header-c header-c header-c header-c"
+    "p1 p1 p1 nothing"
+    "nothing2 nothing2 p2 p2";;
 
     grid-gap: 5px;
   }
@@ -166,19 +166,19 @@ p {
   .about-section {
     display: grid;
     grid-template-areas:
-      "none0 none0 none0 none0 none0 none0"
-      "none000 none000 header header header header"
-      "none000 none000 para1 para1 none1 none1"
-      "none000 none000 none2 none2 para2 para2"
-      "none000 none000 none3 none3 para3 para3"
-      "none000 none000 none4 none4 para4 para4"
-      "none000 none000 none00 none00 none00 none00"
-      "none000 none000 service service none5 none5"
-      "none000 none000 none6 list list list"
-      "nothing00 nothing01 nothing0 nothing0 nothing0 nothing0"
-      "nothing00 nothing01 header-c header-c header-c header-c"
-      "nothing00 nothing01 p1 p1 nothing nothing"
-      "nothing00 nothing01 nothing2 nothing2 p2 p2";;
+    "none0 none0 none0 none0 none0 none0"
+    "none000 none000 header header header header"
+    "none000 none000 para1 para1 none1 none1"
+    "none000 none000 none2 none2 para2 para2"
+    "none000 none000 none3 none3 para3 para3"
+    "none000 none000 none4 none4 para4 para4"
+    "none000 none000 none00 none00 none00 none00"
+    "none000 none000 service service none5 none5"
+    "none000 none000 none6 list list list"
+    "nothing00 nothing01 nothing0 nothing0 nothing0 nothing0"
+    "nothing00 nothing01 header-c header-c header-c header-c"
+    "nothing00 nothing01 p1 p1 nothing nothing"
+    "nothing00 nothing01 nothing2 nothing2 p2 p2";;
 
     grid-gap: 5px;
   }
@@ -204,19 +204,19 @@ p {
   .about-section {
     display: grid;
     grid-template-areas:
-      "none0 none0 none0 none0 none0 none0"
-      "none000 none000 header header header header"
-      "none000 none000 para1 para1 para2 para2"
-      "none000 none000 none2 none2 para2 para2"
-      "none000 none000 none3 none3 para3 para3"
-      "none000 none000 none4 none4 para4 para4"
-      "none000 none000 none00 none00 none00 none00"
-      "none000 none000 service service none5 none5"
-      "none000 none000 list list list list"
-      "nothing0 nothing0 nothing0 nothing0 nothing0 nothing0"
-      "nothing00 nothing00 header-c header-c header-c header-c"
-      "nothing00 nothing00 p1 p1 p2 p2"
-      "nothing00 nothing00 nothing2 nothing2 p2 p2";
+    "none0 none0 none0 none0 none0 none0"
+    "none000 none000 header header header header"
+    "none000 none000 para1 para1 para2 para2"
+    "none000 none000 none2 none2 para2 para2"
+    "none000 none000 none3 none3 para3 para3"
+    "none000 none000 none4 none4 para4 para4"
+    "none000 none000 none00 none00 none00 none00"
+    "none000 none000 service service none5 none5"
+    "none000 none000 list list list list"
+    "nothing0 nothing0 nothing0 nothing0 nothing0 nothing0"
+    "nothing00 nothing00 header-c header-c header-c header-c"
+    "nothing00 nothing00 p1 p1 p2 p2"
+    "nothing00 nothing00 nothing2 nothing2 p2 p2";
 
     grid-gap: 5px;
   }
