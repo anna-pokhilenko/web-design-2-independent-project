@@ -67,10 +67,6 @@ h2 {
   font-size: 1.1rem;
 }
 
-.moodboard-padding {
-  margin: 0 10em;
-}
-
 @media (min-width: 768px) {
   html {
     font-size: 1.1rem;
@@ -80,6 +76,14 @@ h2 {
   }
   h2 {
       font-size: 1.2rem;
+  }
+
+  .padding-around {
+    padding: 5em 15em 0;
+  }
+
+  .padding-top {
+    padding-top: 15em;
   }
 }
 
