@@ -45,6 +45,7 @@ p {
 .img-flex {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .text-sm-right {
@@ -80,7 +81,7 @@ h2 {
   }
 
   .padding-sides {
-    padding: 5em 5em 0;
+    padding: 5em 15em 0;
   }
 
   .padding-top {
